@@ -7,7 +7,7 @@
 .weather-app-wrapper {
   border: 3px solid #ffc107;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(66, 143, 214, 0.6);
 }
 body {
