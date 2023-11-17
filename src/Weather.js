@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 import "./Weather.css";
 
@@ -9,9 +10,9 @@ export default function Weather(props) {
   const [weather, setWeather] = useState({ loaded: false });
 
   function displayWeather(response) {
-    console.log(response);
     setWeather({
       loaded: true,
+      date: new Date(response.data.dt * 1000),
       city: response.data.name,
       temperature: Math.round(response.data.main.temp),
       wind: response.data.wind.speed,
@@ -44,7 +45,7 @@ export default function Weather(props) {
             type="search"
             id="city-input"
             placeholder="Search for another city..."
-            autocomplete="off"
+            autoComplete="off"
             // onChange={updateCity}
           />
           <input type="submit" value="Search" className="btn btn-warning" />
@@ -58,7 +59,9 @@ export default function Weather(props) {
           <div className="col-4">
             <div className="d-flex other-info">
               <ul>
-                <li className="day-plus-time">Sunday, 15:33</li>
+                <li className="day-plus-time">
+                  <FormattedDate date={weather.date} />
+                </li>
                 <li className="weather-condition">{weather.description}</li>
                 <li>
                   Humidity: <span>{weather.humidity}</span>%
