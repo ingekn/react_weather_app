@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 import "./Weather.css";
 
@@ -31,13 +32,9 @@ export default function WeatherInfo(props) {
           </div>
         </div>
         <div className="col-4">
-          <div className="d-flex temp">{props.data.temperature}</div>
-          <span className="degree-change">
-            <a href="/" className="active">
-              °C
-            </a>
-            |<a href="/">°F</a>
-          </span>
+          <div className="d-flex temp">
+            <WeatherTemperature celsius={props.data.temperature} />
+          </div>
         </div>
       </div>
     </div>

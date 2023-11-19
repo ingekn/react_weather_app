@@ -107,25 +107,6 @@ a:hover {
   display: block;
   margin: 0 auto;
 }
-.temp {
-  margin-top: 45px;
-  font-size: 55px;
-  font-weight: 600;
-}
-.degree-change {
-  font-size: 20px;
-  position: relative;
-  top: -78px;
-  left: 67px;
-  font-weight: 600;
-}
-.degree-change .active {
-  color: white;
-  cursor: default;
-}
-.degree-change .active:hover {
-  text-decoration: none;
-}
 .closing-line {
   margin-top: 12px;
   padding-left: 40px;
