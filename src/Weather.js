@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import Forecast from "./Forecast";
 
 import "./Weather.css";
 
@@ -19,6 +20,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       description: response.data.weather[0].description,
+      coord: response.data.coord,
     });
   }
 
@@ -56,6 +58,8 @@ export default function Weather(props) {
         </form>
         <hr />
         <WeatherInfo data={weatherData} />
+        <hr />
+        <Forecast coord={weatherData.coord} day={weatherData.date.getDay()} />
       </div>
     );
   } else {

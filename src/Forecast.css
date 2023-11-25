@@ -1,15 +1,19 @@
-.weather-forecast {
+.Forecast {
   text-align: center;
 }
-.weather-forecast-day {
+.Forecast-day {
   font-size: 17px;
   opacity: 0.8;
-  padding: 15px;
-  padding-bottom: 5px;
 }
-.weather-forecast-temp {
+.Forecast img {
+  /* margin: 5px; */
+  width: 70px;
+  height: 70px;
+}
+.Forecast-temp {
   font-size: 16px;
 }
-.weather-forecast-temp-min {
+.Forecast-temp-min {
   opacity: 0.6;
+  margin-left: 5px;
 }
