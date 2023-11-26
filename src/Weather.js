@@ -30,7 +30,6 @@ export default function Weather(props) {
     axios.get(apiUrl).then(displayWeather);
   }
   function searchLocation(position) {
-    console.log(position);
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
     const apiKey = "1386aafaa966aa68e4520o87btc31531";

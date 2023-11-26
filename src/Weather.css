@@ -1,7 +1,5 @@
 form {
-  padding: 8px;
-  margin: 10px 20px;
-  padding-bottom: 15px;
+  margin: 18px 20px 30px 30px;
 }
 .search-bar {
   font-size: 18px;
@@ -22,7 +20,7 @@ form {
 
 .btn-warning {
   position: relative;
-  left: 10px;
+  left: 8px;
 }
 #current-button {
   position: relative;
@@ -44,74 +42,6 @@ form {
 #current-button:hover {
   background-color: #a12764;
 }
-
 hr {
-  height: 1px;
-  background-color: #f1cf66;
-  border: none;
-  width: 565px;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-a {
-  color: #ffc107;
-}
-a:hover {
-  color: #e63b90;
-}
-
-.weather-app-wrapper {
-  margin: 0 auto;
-  max-width: 650px;
-}
-.weather-app {
-  border: 3px solid #ffc107;
-  border-radius: 10px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.city {
-  font-size: 35px;
-  margin-top: 40px;
-  margin-left: 30px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.day-plus-time {
-  margin-top: 18px;
-  font-size: 17px;
-  margin-bottom: 23px;
-  font-style: italic;
-  font-weight: 500;
-}
-.weather-condition {
-  font-size: 15px;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 1.5;
-}
-.other-info {
-  line-height: 1.5;
-  font-size: 15px;
-  font-weight: 400;
-  font-style: italic;
-  font-weight: 400;
-}
-.weather-image img {
-  width: 140px;
-  position: relative;
-  left: 20px;
-  display: block;
-  margin: 0 auto;
-}
-.closing-line {
-  margin-top: 12px;
-  padding-left: 40px;
-  font-style: italic;
-  color: white;
-  font-size: 12px;
+  padding: 5px;
 }
