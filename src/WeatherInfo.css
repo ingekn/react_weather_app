@@ -1,7 +1,7 @@
-ul {
+.WeatherInfo ul {
   list-style: none;
 }
-.city {
+.WeatherInfo .city {
   font-size: 38px;
   margin-top: 35px;
   margin-left: 30px;
@@ -9,23 +9,22 @@ ul {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.day-plus-time {
+.WeatherInfo .day-plus-time {
   margin-top: 18px;
   font-size: 17px;
   margin-bottom: 23px;
   font-style: italic;
   font-weight: 500;
 }
-.weather-description {
+.WeatherInfo .weather-description {
   text-transform: capitalize;
 }
-.other-weather-data {
+.WeatherInfo .other-weather-data {
   font-size: 15px;
   font-weight: 400;
   font-style: italic;
-  font-weight: 400;
 }
-.weather-image img {
+.WeatherInfo .weather-image img {
   width: 140px;
   position: relative;
   left: 20px;

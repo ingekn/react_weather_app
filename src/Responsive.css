@@ -1,0 +1,109 @@
+@media (max-width: 767px) {
+  .App .weather-app-wrapper {
+    padding: 8px;
+  }
+  .Weather .search-bar {
+    width: 220px;
+  }
+  .Weather .btn,
+  .Weather #current-button {
+    font-size: 13px;
+  }
+  .Weather hr {
+    padding: 0px;
+  }
+  .WeatherInfo .city {
+    font-size: 30px;
+  }
+  .WeatherInfo .day-plus-time {
+    margin-top: 14px;
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+  .WeatherInfo .other-weather-data {
+    font-size: 12px;
+  }
+  .WeatherInfo .weather-image img {
+    width: 110px;
+    left: 30px;
+  }
+  .WeatherTemperature .temperature {
+    font-size: 40px;
+  }
+  .WeatherTemperature .unit {
+    font-size: 15px;
+    top: -30px;
+    left: 20px;
+  }
+  .Forecast .Forecast-day {
+    font-size: 12px;
+  }
+  .Forecast img {
+    width: 40px;
+    height: 40px;
+  }
+  .Forecast .Forecast-temp {
+    font-size: 12px;
+  }
+  .Footer {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Weather form {
+    margin: 7px 7px 12px 15px;
+  }
+  .Weather .search-bar {
+    width: 190px;
+    height: 35px;
+    width: 215px;
+  }
+  .Weather #city-input {
+    font-size: 11px;
+  }
+  .Weather #current-button {
+    display: none;
+  }
+  .Weather .btn {
+    font-size: 12px;
+  }
+  .WeatherInfo .city {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  .WeatherInfo ul {
+    padding-left: 20px;
+  }
+  .WeatherInfo .day-plus-time {
+    margin-top: 11px;
+    font-size: 11px;
+    margin-bottom: 11px;
+  }
+  .WeatherInfo .other-weather-data {
+    font-size: 9px;
+  }
+  .WeatherInfo .weather-image img {
+    width: 80px;
+    left: 20px;
+  }
+  .WeatherTemperature .unit {
+    left: 15px;
+  }
+  .Forecast {
+    padding: 5px;
+  }
+  .Forecast .Forecast-day {
+    font-size: 11px;
+  }
+  .Forecast img {
+    width: 30px;
+    height: 30px;
+  }
+  .Forecast .Forecast-temp {
+    font-size: 11px;
+  }
+  .Footer {
+    font-size: 8px;
+  }
+}

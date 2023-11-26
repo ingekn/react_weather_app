@@ -1,7 +1,7 @@
-form {
+.Weather form {
   margin: 18px 20px 30px 30px;
 }
-.search-bar {
+.Weather .search-bar {
   font-size: 18px;
   width: 330px;
   height: 40px;
@@ -9,7 +9,7 @@ form {
   border: 3px solid #ffc107;
 }
 
-#city-input {
+.Weather #city-input {
   color: gray;
   font-style: italic;
   outline-offset: 0;
@@ -18,11 +18,11 @@ form {
   font-size: 14px;
 }
 
-.btn-warning {
+.Weather .btn-warning {
   position: relative;
   left: 8px;
 }
-#current-button {
+.Weather #current-button {
   position: relative;
   left: 15px;
   color: #fff;
@@ -39,9 +39,9 @@ form {
   outline: none;
   transition: all 100ms ease-in-out;
 }
-#current-button:hover {
+.Weather #current-button:hover {
   background-color: #a12764;
 }
-hr {
+.Weather hr {
   padding: 5px;
 }

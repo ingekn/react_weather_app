@@ -3,10 +3,11 @@ import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
 
 import "./WeatherInfo.css";
+import "./Responsive.css";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="weatherInfo">
+    <div className="WeatherInfo">
       <h1 className="city">{props.data.city}</h1>
       <div className="row">
         <div className="col-4">

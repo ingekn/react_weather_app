@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
   color: white;
 }
-.weather-app-wrapper {
+.App .weather-app-wrapper {
   border: 3px solid #ffc107;
   border-radius: 10px;
   padding: 20px;
