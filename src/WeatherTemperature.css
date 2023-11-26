@@ -28,15 +28,18 @@
   .WeatherTemperature .unit {
     left: 5px;
   }
+  .WeatherTemperature .fahrenheit {
+    display: none;
+  }
 }
 @media (max-width: 370px) {
   .WeatherTemperature .temperature {
-    font-size: 30px;
+    font-size: 35px;
     position: relative;
     top: 30px;
   }
   .WeatherTemperature .unit {
-    left: 0px;
+    left: 5px;
     top: 10px;
     font-size: 10px;
   }
