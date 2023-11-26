@@ -1,18 +1,17 @@
 .App {
   margin: 80px auto;
-  max-width: 670px;
+  max-width: 680px;
   font-family: "Poppins", sans-serif;
   color: white;
 }
 .App .weather-app-wrapper {
-  border: 3px solid #ffc107;
+  border: 3px solid #14b6db;
   border-radius: 10px;
   padding: 20px;
-  background-color: rgba(66, 143, 214, 0.6);
+  background-color: rgb(9 31 50 / 55%);
 }
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/672/original/pexels-photomix-company-96622.jpg?1686065668");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/105/041/original/world_weather.jpg?1701019839");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #388ecb;
 }

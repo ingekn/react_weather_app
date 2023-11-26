@@ -6,14 +6,15 @@
   width: 330px;
   height: 40px;
   border-radius: 17px;
-  border: 3px solid #ffc107;
+  border: 3px solid #14b6db;
 }
 
 .Weather #city-input {
   color: gray;
   font-style: italic;
   outline-offset: 0;
-  outline-color: #ffc107;
+  outline-color: #14b6db;
+
   padding-left: 12px;
   font-size: 14px;
 }
@@ -26,7 +27,7 @@
   position: relative;
   left: 15px;
   color: #fff;
-  background-color: #e63b90;
+  background-color: #14b6db;
   border-color: #f782bc;
   display: inline-block;
   font-weight: 400;
@@ -45,3 +46,4 @@
 .Weather hr {
   padding: 5px;
 }
+/* background-color: #14b6db; */
