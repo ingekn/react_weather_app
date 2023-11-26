@@ -29,3 +29,65 @@
   left: 50px;
   display: block;
 }
+
+@media (max-width: 767px) {
+  .WeatherInfo .city {
+    font-size: 30px;
+  }
+  .WeatherInfo .day-plus-time {
+    margin-top: 14px;
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+  .WeatherInfo .other-weather-data {
+    font-size: 12px;
+  }
+  .WeatherInfo .weather-image canvas {
+    width: 90px;
+    left: 30px;
+  }
+}
+@media (max-width: 488px) {
+  .WeatherInfo .city {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .WeatherInfo ul {
+    padding-left: 20px;
+  }
+  .WeatherInfo .day-plus-time {
+    margin-top: 11px;
+    font-size: 11px;
+    margin-bottom: 11px;
+  }
+  .WeatherInfo .other-weather-data {
+    font-size: 9px;
+  }
+  .WeatherInfo .weather-image canvas {
+    width: 60px;
+    left: 30px;
+    top: 20px;
+  }
+}
+@media (max-width: 370px) {
+  .WeatherInfo .city {
+    font-size: 23px;
+    margin-left: 13px;
+    margin-top: 25px;
+  }
+  .WeatherInfo ul {
+    padding-left: 13px;
+  }
+  .WeatherInfo .day-plus-time {
+    font-size: 9px;
+  }
+  .WeatherInfo .other-weather-data {
+    font-size: 6px;
+  }
+  .WeatherInfo .weather-image canvas {
+    width: 40px;
+    left: 10px;
+    top: 30px;
+  }
+}

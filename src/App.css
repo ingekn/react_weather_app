@@ -15,3 +15,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 767px) {
+  .App {
+    margin: 80px 10px;
+  }
+  .App .weather-app-wrapper {
+    padding: 8px;
+  }
+}
+@media (max-width: 400px) {
+  .App {
+    margin: 80px 8px;
+  }
+  .App .weather-app-wrapper {
+    padding: 0px;
+  }
+}
+@media (max-width: 370px) {
+  .App {
+    margin: 60px 0px;
+  }
+}

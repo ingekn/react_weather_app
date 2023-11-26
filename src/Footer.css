@@ -9,3 +9,15 @@
   margin-right: 5px;
   color: #ffe200;
 }
+
+@media (max-width: 767px) {
+  .Footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 488px) {
+  .Footer {
+    font-size: 8px;
+  }
+}

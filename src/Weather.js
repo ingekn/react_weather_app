@@ -5,7 +5,6 @@ import WeatherInfo from "./WeatherInfo";
 import Forecast from "./Forecast";
 
 import "./Weather.css";
-import "./Responsive.css";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);

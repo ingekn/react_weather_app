@@ -4,7 +4,6 @@ import WeatherTemperature from "./WeatherTemperature";
 import WeatherIcon from "./WeatherIcon";
 
 import "./WeatherInfo.css";
-import "./Responsive.css";
 
 export default function WeatherInfo(props) {
   return (

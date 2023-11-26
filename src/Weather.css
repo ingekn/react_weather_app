@@ -42,9 +42,47 @@
   transition: all 100ms ease-in-out;
 }
 .Weather #current-button:hover {
-  background-color: #a12764;
+  background-color: #0d7f99;
 }
 .Weather hr {
   padding: 5px;
 }
-/* background-color: #14b6db; */
+
+@media (max-width: 767px) {
+  .Weather .search-bar {
+    width: 220px;
+  }
+  .Weather .btn,
+  .Weather #current-button {
+    font-size: 13px;
+  }
+  .Weather hr {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 505px) {
+  .Weather form {
+    margin: 15px;
+  }
+  .Weather .search-bar {
+    width: 220px;
+    height: 35px;
+  }
+  .Weather #city-input {
+    font-size: 11px;
+  }
+  .Weather #current-button {
+    display: none;
+  }
+  .Weather .btn {
+    font-size: 12px;
+  }
+}
+@media (max-width: 370px) {
+  .Weather .search-bar {
+    width: 170px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+}

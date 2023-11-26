@@ -13,3 +13,31 @@
   text-decoration: none;
   color: #ffe200;
 }
+
+@media (max-width: 767px) {
+  .WeatherTemperature .temperature {
+    font-size: 55px;
+  }
+  .WeatherTemperature .unit {
+    font-size: 15px;
+    top: -30px;
+    left: 20px;
+  }
+}
+@media (max-width: 488px) {
+  .WeatherTemperature .unit {
+    left: 5px;
+  }
+}
+@media (max-width: 370px) {
+  .WeatherTemperature .temperature {
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .WeatherTemperature .unit {
+    left: 0px;
+    top: 10px;
+    font-size: 10px;
+  }
+}
