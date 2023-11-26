@@ -22,6 +22,7 @@
 .Weather .btn-warning {
   position: relative;
   left: 8px;
+  background-color: #ffe200;
 }
 .Weather #current-button {
   position: relative;

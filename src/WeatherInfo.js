@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherIcon from "./WeatherIcon";
 
 import "./WeatherInfo.css";
 import "./Responsive.css";
@@ -29,7 +30,7 @@ export default function WeatherInfo(props) {
 
         <div className="col-4">
           <div className="d-flex weather-image">
-            <img src={props.data.icon} alt={props.data.description} />
+            <WeatherIcon code={props.data.icon} size={90} />
           </div>
         </div>
         <div className="col-4">

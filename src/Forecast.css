@@ -7,9 +7,8 @@
   font-size: 17px;
   opacity: 0.8;
 }
-.Forecast img {
-  width: 70px;
-  height: 70px;
+.Forecast canvas {
+  margin: 10px;
 }
 .Forecast .Forecast-temp {
   font-size: 16px;

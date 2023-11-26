@@ -19,7 +19,7 @@ export default function Weather(props) {
       temperature: Math.round(response.data.temperature.current),
       wind: response.data.wind.speed,
       humidity: response.data.temperature.humidity,
-      icon: response.data.condition.icon_url,
+      icon: response.data.condition.icon,
       description: response.data.condition.description,
       coord: response.data.coordinates,
     });

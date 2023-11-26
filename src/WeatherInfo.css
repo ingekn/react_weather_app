@@ -24,9 +24,8 @@
   font-weight: 400;
   font-style: italic;
 }
-.WeatherInfo .weather-image img {
-  width: 140px;
+.WeatherInfo .weather-image canvas {
   position: relative;
-  left: 20px;
+  left: 50px;
   display: block;
 }

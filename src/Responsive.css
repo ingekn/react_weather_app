@@ -1,9 +1,12 @@
 @media (max-width: 767px) {
+  .App {
+    margin: 80px 10px;
+  }
   .App .weather-app-wrapper {
     padding: 8px;
   }
   .Weather .search-bar {
-    width: 220px;
+    width: 80px;
   }
   .Weather .btn,
   .Weather #current-button {
@@ -23,7 +26,7 @@
   .WeatherInfo .other-weather-data {
     font-size: 12px;
   }
-  .WeatherInfo .weather-image img {
+  .WeatherInfo .weather-image canvas {
     width: 110px;
     left: 30px;
   }
@@ -38,7 +41,7 @@
   .Forecast .Forecast-day {
     font-size: 12px;
   }
-  .Forecast img {
+  .Forecast canvas {
     width: 40px;
     height: 40px;
   }
@@ -83,7 +86,7 @@
   .WeatherInfo .other-weather-data {
     font-size: 9px;
   }
-  .WeatherInfo .weather-image img {
+  .WeatherInfo .weather-image canvas {
     width: 80px;
     left: 20px;
   }
@@ -96,7 +99,7 @@
   .Forecast .Forecast-day {
     font-size: 11px;
   }
-  .Forecast img {
+  .Forecast canvas {
     width: 30px;
     height: 30px;
   }
