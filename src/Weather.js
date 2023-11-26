@@ -11,7 +11,6 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
 
   function displayWeather(response) {
-    console.log(response.data.condition);
     setWeatherData({
       loaded: true,
       date: new Date(response.data.time * 1000),
@@ -29,6 +28,18 @@ export default function Weather(props) {
     let apiKey = "1386aafaa966aa68e4520o87btc31531";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayWeather);
+  }
+  function searchLocation(position) {
+    console.log(position);
+    let latitude = position.coords.latitude;
+    let longitude = position.coords.longitude;
+    const apiKey = "1386aafaa966aa68e4520o87btc31531";
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?lon=${longitude}&lat=${latitude}&key=${apiKey}`;
+    axios.get(apiUrl).then(displayWeather);
+  }
+  function getCurrentLocation(event) {
+    event.preventDefault();
+    navigator.geolocation.getCurrentPosition(searchLocation);
   }
 
   function handleSubmit(event) {
@@ -53,7 +64,11 @@ export default function Weather(props) {
             onChange={updateCity}
           />
           <input type="submit" value="Search" className="btn btn-warning" />
-          <button type="button" id="current-button">
+          <button
+            type="button"
+            id="current-button"
+            onClick={getCurrentLocation}
+          >
             My location
           </button>
         </form>
